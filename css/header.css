@@ -1,0 +1,76 @@
+.header {
+	border-bottom: 1px solid #ddd;
+	background-color: #e3e4e5;
+	font-size: 13px;
+	line-height: 30px;
+}
+.header .header-infos .icon{
+	color: red;
+	font-size: 16px;
+}
+.header .header-infos {
+	width: 982px;
+	height: 30px;
+	margin: 0 auto;
+	padding: 0 8px 0 200px;
+}
+.header .header-infos .location {
+	color: #999;
+	height: 30px;
+	padding: 0 5px;
+	position: relative;
+}
+.header .header-infos .location .location-more {
+	display: none;
+	background-color: #FFFFFF;
+	width: 350px;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	z-index: 10;
+}
+.header .header-infos .location .location-more li{
+	float: left;
+	width: 50px;
+	padding: 0 10px;
+}
+.header .header-infos .location:hover {
+	background-color: #fff;
+}
+.header .header-infos .location:hover .location-more {
+	display: block;
+}
+.header .header-infos .services li{
+	float: left;
+}
+.header .header-infos .services .spacer{
+	width: 1px;
+	background-color: #ccc;
+	height: 10px;
+	margin: 10px 10px 0;
+}
+.header .header-infos .services li a{
+	color: #999;
+}
+.header .header-infos .services .jd-phone {
+	position: relative;
+}
+.header .header-infos .services .jd-phone .phone-qrcode{
+	padding: 2px;
+	border: 1px solid #999999;
+	vertical-align: bottom;
+	height: 60px;
+	width: 60px;
+	position: absolute;
+	right: -8px;
+	z-index: 9999;
+} 
+.header .header-infos .services .jd-phone .trangle {
+	border-bottom: 5px solid #FFFFFF;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	width: 0;
+	position: absolute;
+	right: 20px;
+	bottom: -1px;
+}

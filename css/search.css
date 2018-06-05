@@ -1,0 +1,117 @@
+.search {
+	width: 1190px;
+	height: 140px;
+	margin: 0 auto;
+	position: relative;
+}
+.search .logo {
+	background: url(../img/sprite.head.png) no-repeat 0 0;
+	width: 190px;
+	height: 170px;
+	text-indent: -9999px;
+	position: absolute;
+	top: -30px;
+}
+.search .search-box {
+	height: 60px;
+	position: relative;
+}
+.search .search-box .search-form {
+	position: absolute;
+	bottom: 0;
+	left: 300px;
+	background-color: #FFFFFF;
+}
+.search .search-box .search-form .search-inp {
+	outline: none;
+	height: 25px;
+	width: 450px;
+	padding: 4px 44px 4px 4px;
+	border: none;
+}
+.search .search-box .search-form .fa-camera {
+	position: absolute;
+	right: 12px;
+	bottom: 7px;
+}
+.search .search-box .search-form .submit-btn {
+	position: absolute;
+	right: -25px;
+	bottom: 0px;
+	background-color: #F10215;
+	height: 33px;
+	width: 33px;
+	border: none;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+.search .search-box .my-cart {
+	position: absolute;
+	color: #F10215;
+	background-color: #FFFFFF;
+	right: 150px;
+	bottom: 0px;
+	height: 27px;
+	border: 1px solid lightgray;
+	padding: 3px 30px;
+	font-size: 12px;
+	line-height: 27px;
+}
+.search .search-box .my-cart .fa-shopping-cart {
+	font-size: 18px;
+}
+.search .search-box .my-cart .circle {
+	background-color: #F10215;
+	height: 12px;
+	width: 12px;
+	display: block;
+	border-radius: 12px;
+	position: absolute;
+	right: 15px;
+	top: 6px;
+}
+.search .search-box .my-cart .circle span{
+	position: absolute;
+	left: 2px;
+	color: #FFFFFF;
+	line-height: 8px;
+	top: 2px;
+	font-size: 8px;
+	font-family: '新宋体';
+}
+.search .search-box .keyworks {
+	position: absolute;
+	bottom: -20px;
+	left: 300px;
+}
+.search .search-box .keyworks a{
+	color: #999999;
+	font-size: 12px;
+}
+
+.search .navbar {
+	position: absolute;
+	left: 240px;
+	bottom: 0px;
+}
+.search .navbar li {
+	float: left;
+}
+.search .navbar li.spacer {
+	width: 1px;
+	height: 10px;
+	background-color: #999999;
+	margin: 5px 10px 0;
+}
+.search .navbar li a{
+	display: block;
+	padding: 0 12px;
+	height: 30px;
+	font-size: 15px;
+	color: #333;
+}
+.search .tuiguang {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

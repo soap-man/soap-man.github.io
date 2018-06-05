@@ -1,0 +1,74 @@
+.banner {
+	height: 480px;
+	width: 1190px;
+	margin: 0 auto;
+}
+.banner .fs-col1, .banner .fs-col2,.banner .fs-col3 {
+	display: inline-block;
+} 
+.banner .fs-col1 {
+	width: 170px;
+	height: 480px;
+	vertical-align: top;
+	background-color: #FFFFFF;
+	border-top: 1px solid #EEEEEE;
+	padding-left: 20px;
+}
+.banner .fs-col2 {
+	position: relative;
+}
+.banner .fs-col2 button{
+	border: none;
+	outline: none;
+	background-color: #666;
+	position: absolute;
+	height: 30px;
+	width: 20px;
+	color: #FFFFFF;
+	top: 225px;
+	font-size: 20px;
+}
+.banner .fs-col2 button.btn-left {
+	left: 10px;
+}
+.banner .fs-col2 button.btn-right {
+	right: 10px;
+}
+.banner .fs-col2 .nav-bar {
+	position: absolute;
+	left: 20px;
+	bottom: 15px;
+}
+.banner .fs-col2 .nav-bar li {
+	float: left;
+	margin-right: 15px;
+	color: #FFFFFF;
+}
+.banner .fs-col2 .nav-bar .circle{
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+}
+.banner .fs-col2 .nav-bar li i:hover {
+	box-shadow: 0 0 5px 5px #FFFFFF;	
+	background-color: #F0F3EF;
+}
+.banner .fs-col1 li{
+	margin-top: 5px;
+}
+.banner .fs-col1 a{
+	color: #666;
+	font-size: 13px;
+}
+.banner .fs-col2,.banner .fs-col3{
+	margin: 10px 0 0 10px;
+}
+.banner .fs-col3 .rec_img{
+	height: 150px;
+}
+.banner .fs-col3 .top, .banner .fs-col3 .middle {
+	margin-bottom: 10px;
+}
+

@@ -1,0 +1,21 @@
+html,body,ul,li,p,div,h1,h2,h4,h3,h5,i,b,u,form,input,button{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background-color: #F0F3EF;
+	font-family: "微软雅黑";
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+a{
+	text-decoration: none;
+}
+
